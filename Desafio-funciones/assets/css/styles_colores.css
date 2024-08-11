@@ -1,0 +1,34 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: rgb(41, 182, 230); /* Azul pastel */
+}
+
+.red {
+    background-color: rgb(250, 135, 152); /* Rojo pastel */
+}
+
+.green {
+    background-color: rgb(132, 236, 132); /* Verde pastel */
+}
+
+.yellow {
+    background-color: rgb(247, 247, 143); /* Amarillo pastel */
+}
+
+.key {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
