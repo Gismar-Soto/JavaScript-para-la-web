@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --card-height: auto;
+    --main-background-height: 300px;
+}
+
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: var(--main-background-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.card img {
+    height: var(--card-height);
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
