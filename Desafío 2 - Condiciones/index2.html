@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Stickers</title>
+    <link rel="stylesheet" href="./CSS/styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>"PUEDES LLEVAR HASTA UN TOTAL DE 10 STICKERS."</h1>
+        <div class="sticker-container">
+            <div class="sticker">
+                <img src="./assets/IMG/B1.png" alt="Emo2 Sticker">
+                <input type="number" id="sticker1" min="0" value="0">
+            </div>
+            <div class="sticker">
+                <img src="./assets/IMG/B2-3.png" alt="Emo3 Sticker">
+                <input type="number" id="sticker2" min="0" value="0">
+            </div>
+            <div class="sticker">
+                <img src="./assets/IMG/B3.png" alt="Emo4 Sticker">
+                <input type="number" id="sticker3" min="0" value="0">
+            </div>
+        </div>
+        <button id="verificar">Verificar</button>
+        <p id="resultado"></p>
+        <button id="home-button" class="bottom-left" onclick="goToHome()">Regresar</button>
+    </div>
+    <script src="./js/script2.js"></script>
+</body>
+</html>

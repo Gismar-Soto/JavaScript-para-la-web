@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3e8da;
+}
+
+.container {
+    text-align: center;
+}
+
+.sticker-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border: 1px solid #b05733;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #FFA726;
+    transition: all 0.3s;
+}
+
+.sticker img {
+    width: 250px;
+    height: auto;
+}
+
+.sticker input[type="number"] {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #b05733;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFA726; 
+    color: #000000; 
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF8C00; 
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3e8da;
+}
+
+.container {
+    text-align: center;
+}
+
+#toggle-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.border-red {
+    border: 5px solid red;
+}
+
+#home-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFA726;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#home-button:hover {
+    background-color: #FFA726;
+}
