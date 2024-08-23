@@ -1,0 +1,16 @@
+.boton-eliminar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-completar {
+    width: 20px;
+    height: 20px;
+}
+
+.tarea-realizada {
+    text-decoration: line-through;
+    color: gray;
+}
