@@ -94,5 +94,5 @@ Esta es una aplicación de lista de tareas creada como parte de un desafío de c
 - CSS
 - JavaScript
 - Local Storage
-- Métodos de arreglos (`map`, `filter`, `reduce`, etc.)
+- Métodos de arreglos 
 
