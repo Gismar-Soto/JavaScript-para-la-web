@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Conversor de monedas CLP a Dólar, UF, y UTM con gráficos de evolución de precios en tiempo real."
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Conversor de Monedas - Economía Nacional</title>
+  </head>
+
+  <body>
+    <div class="conversor-wrapper">
+      <h1>Conversor de Monedas Nacional</h1>
+      <p>
+        Utiliza esta herramienta para convertir pesos chilenos a diferentes
+        divisas y observar la evolución de su valor en el tiempo.
+      </p>
+      <div class="conversor-container">
+        <div class="input-group">
+          <label for="pesos-clp">Pesos CLP</label>
+          <input type="number" id="pesos-clp" name="pesos-clp" value="0" />
+        </div>
+        <div class="input-group">
+          <label for="moneda">Moneda a convertir:</label>
+          <select id="moneda" name="moneda">
+            <option value="dolar">Dólar</option>
+            <option value="uf">UF</option>
+            <option value="utm">UTM</option>
+          </select>
+        </div>
+        <button id="buscar">Buscar</button>
+        <div class="resultado">
+          <p>Resultado: $0</p>
+        </div>
+      </div>
+      <div class="grafico-container">
+        <p>Gráfico de evolución de precio aquí.</p>
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
